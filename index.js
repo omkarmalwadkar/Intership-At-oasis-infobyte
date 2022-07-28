@@ -1,0 +1,12 @@
+document.querySelectorAll("li")[0].addEventListener("click",function(){
+    document.querySelectorAll("li")[0].classList.toggle("bgred");
+})
+document.querySelectorAll("li")[1].addEventListener("click",function(){
+    document.querySelectorAll("li")[1].classList.toggle("bgred");
+})
+document.querySelectorAll("li")[2].addEventListener("click",function(){
+    document.querySelectorAll("li")[2].classList.toggle("bgred");
+})
+document.querySelectorAll("li")[3].addEventListener("click",function(){
+    document.querySelectorAll("li")[3].classList.toggle("bgred");
+})

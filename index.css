@@ -1,0 +1,85 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+nav{
+    
+    height: 80px;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display:inline-block;
+    padding: 0 30px;
+    font-size: 25px;
+}
+nav h1{
+    font-size: 35px;
+    margin-left: 30px;
+}
+nav button{
+    margin-right: 71px;
+    height: 42px;
+    width: 98px;
+    border-radius: 10px;
+    background-color:#cb5d5c;
+    color:white;
+   
+}
+body{
+    background-image: url(kikI.jpg);
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+}
+.center_text{
+    position: absolute;
+    top:166px;
+    left:659px;
+    height: 500px;
+    width: 500px;
+    
+    text-align: center;
+    padding: 188px 0;
+    
+}
+.center_text h1{
+    font-size: 78px;
+}
+.center_text p{
+    font-size: 35px;
+}
+.center_text button{
+    height: 59px; 
+    width: 300px;
+    border-radius: 10px;
+    background-color:#cb5d5c;
+    color:white;
+    font-size: 35px;
+}
+nav h1:hover{
+    color:#cb5d5c;
+}
+.line::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #cb5d5c;
+    transition: width .3s ;
+    
+}
+.line:hover::after{
+    width: 100%;
+
+}
+li:hover{
+    color:#cb5d5c;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.bgred{
+    color:green;
+}
